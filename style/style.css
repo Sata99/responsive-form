@@ -14,6 +14,8 @@ main{
     width: 100%;
     max-width: 1000px ;
     margin: 10px;
+    height: 100%;
+    min-height: 25px; 
 }
 nav{
     width: 100%;
@@ -30,7 +32,6 @@ li{
     margin-right: 20px;
     font-size: 20px;
     line-height: 22px;
-    height: 25px; 
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     
@@ -49,8 +50,7 @@ a:hover{
     line-height: 36px;
     letter-spacing: -0.25px;
     padding: 10px;
-    margin: 10px;
-    height: 25px; 
+    margin: 10px; 
     font-family: 'Actor', sans-serif;
     font-style: normal;
 }
@@ -68,7 +68,8 @@ a:hover{
 .box3{
     width: 100%;
     max-width: 400px;
-    height: 240px;
+    height: 100%;
+    min-height: 240px;
     margin: 10px;
 
 }
@@ -80,7 +81,8 @@ a:hover{
     letter-spacing: -2px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    height: 102px;
+    height: 100%;
+    min-height: 102px;
     
 }
 
@@ -89,7 +91,8 @@ font-family: 'Source Sans Pro';
 font-style: normal;
 font-size: 22px;
 line-height: 34px;
-height: 98px;
+height: 100%;
+min-height: 98px;
 }
 
 img{
